@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>DefaultValue</key>
+			<string>VersionValue</string>
+			<key>Key</key>
+			<string>version_preference</string>
+			<key>Title</key>
+			<string>Version</string>
+			<key>Titles</key>
+			<array>
+				<string>DEV BUILD</string>
+			</array>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>VersionValue</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Location</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Use Alternate Location</string>
+			<key>Key</key>
+			<string>useAlternateLocation</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Latitude</string>
+			<key>Key</key>
+			<string>alternateLatitude</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>DefaultValue</key>
+			<string>41.4993</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Longitude</string>
+			<key>Key</key>
+			<string>alternateLongitude</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>DefaultValue</key>
+			<string>-81.6944</string>
+		</dict>
+	</array>
+</dict>
+</plist>

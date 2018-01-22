@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AttractionBioCell" rowHeight="146" id="8U5-SK-u97" customClass="AttractionBioCell" customModule="ShowsInTown" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="146"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" tableViewCell="8U5-SK-u97" id="v3F-qH-cMx">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="146"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" text="" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbe-k5-mtA">
+                        <rect key="frame" x="15" y="11" width="345" height="124"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.42352941176470588" green="0.45098039215686275" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Cbe-k5-mtA" secondAttribute="bottom" id="XOS-cq-0er"/>
+                    <constraint firstItem="Cbe-k5-mtA" firstAttribute="top" secondItem="v3F-qH-cMx" secondAttribute="topMargin" id="ctU-P5-nes"/>
+                    <constraint firstItem="Cbe-k5-mtA" firstAttribute="leading" secondItem="v3F-qH-cMx" secondAttribute="leadingMargin" id="dDu-Uy-1PT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Cbe-k5-mtA" secondAttribute="trailing" id="eB0-Ye-L4P"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bioLabel" destination="Cbe-k5-mtA" id="5wj-hU-JQ9"/>
+            </connections>
+            <point key="canvasLocation" x="-378.5" y="-73"/>
+        </tableViewCell>
+    </objects>
+</document>
