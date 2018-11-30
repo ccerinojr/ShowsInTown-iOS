@@ -1,6 +1,6 @@
 # ShowsInTown
 
-ShowsInTown is a simple app for discovering what concerts are happening near you. It is built using Ticketmaster's open Discovery API.
+ShowsInTown is a simple app for discovering what concerts are happening near you. It is built using Ticketmaster's open Discovery API. test
 
 # Features 
 
